@@ -1,0 +1,32 @@
+html, body{
+    padding:0;
+    margin:0;
+    height:100%;
+    width:100%;
+}
+#map{
+    height:100%;
+    width:70%;
+    transition: width 1s ease-out 0.5s;
+    float:left;
+    z-index:0;
+}
+#panel{
+    height:100%;
+    width:30%;
+    float:right;
+    transition: width 1s ease-out 0.5s;
+    z-index:1;
+}
+#inf{
+	background-color: white;
+}
+#logo{
+    position:relative;
+    display:block;
+    margin:0 auto;
+}
+.special{
+    text-decoration:underline;
+    color:red;
+}
